@@ -7,39 +7,102 @@
       body {
         text-align: right;
         direction: rtl;
+        font-family: "Assistant", sans-serif;
       }
       .container {
         margin: 0 auto;
         max-width: 800px;
-        padding: 10px;
+        padding: 10px !important;
       }
-      h1,
-      h5 {
+      h1 {
+        color: #444444;
         font-size: 2em;
+      }
+      h3 {
+        margin-bottom: 0;
+        font-size: 1.8em;
       }
       h4 {
         font-size: 1.5em;
         text-align: center;
       }
+      h5 {
+        font-size: 1.2em;
+      }
       .block {
         background: teal;
         padding: 15px;
       }
+
       .block2 {
         background: rgb(92, 165, 10);
         padding: 15px;
       }
+      .block3 {
+        background: rgb(79, 183, 224);
+        padding: 15px;
+        min-height: 80px;
+        float: right;
+        min-width: 225px;
+        min-width: 225px;
+
+        margin: 0px 5px 25px;
+      }
+      .oranged {
+        margin: 0 auto;
+        display: block;
+        width: 450px;
+        background-color: #ffa500;
+        padding: 10px;
+      }
+      hr {
+        border: 1px solid #5d448166;
+      }
+      .lang li {
+        list-style: none;
+        float: right;
+        padding: 5px;
+      }
+      .block3 {
+        background: rgb(79, 183, 224);
+        padding: 15px;
+        min-height: 80px;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+      .lang li {
+        list-style: none;
+        float: right;
+        padding: 0 5px;
+      }
+      .spacer {
+        min-height: 25px;
+      }
+      .time {
+        padding-right: 5px;
+        text-decoration: underline;
+      }
     </style>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Assistant"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container" align="right" style="padding:50px;">
       <header>
         <div class="title" align="center">
-          <h1>ג'ון מוגי - מנהל פרוייקטים בדיגיטל</h1>
+          <h1 align="center" color="grey">
+            ג'ון מוגי - מנהל פרוייקטים בדיגיטל
+          </h1>
         </div>
       </header>
       <hr />
-      <div class="grid">
+
+      <div class="grid oranged">
         <div class="row">
           <h4>תעודת זהות: 017709759</h4>
         </div>
@@ -53,9 +116,9 @@
 
       <hr />
       <div bgcolor="teal" class="block">
-        <h2><span>תפקיד:</span>מנהל פרוייקטים</h2>
+        <h3><span>תפקיד:</span>מנהל פרוייקטים</h3>
         <h5>
-          אפסייט- בניית אתרים, שיווק דיגיטלי <span class="time">2/2/19</span>
+          אפסייט- בניית אתרים, שיווק דיגיטלי <span class="time">2019</span>
         </h5>
 
         <p class="textb">
@@ -77,8 +140,8 @@
 
       <hr />
       <div class="block2">
-        <h2><span>תפקיד:</span>IT וניהול קמפיינים</h2>
-        <h5>קומפאס פתרונות אינטרנט<span class="time">09.16- 08.18</span></h5>
+        <h3><span>תפקיד:</span>IT וניהול קמפיינים</h3>
+        <h5>קומפאס פתרונות אינטרנט<span class="time">2016-2018</span></h5>
 
         <p class="textb">
           קומפאס היא למעשה סוכנות לשיווק דיגיטלי עבור 5 חברות אחיות בארה"ב של
@@ -93,6 +156,70 @@
           הביצוע<br />
         </p>
       </div>
+      <hr />
+      <div class="block">
+        <h3><span>תפקיד:</span>CTO</h3>
+        <h5>wisy שיווק באינטרנט<span class="time">2012-2016</span></h5>
+
+        <p class="textb">
+          וויזי הנה חברת בוטיק לקידום הממוקמת בתל אביב, הלקוחות של החברה הנם
+          מהעילית בשוק, במהלך העבודה ריכזתי עבור מנהלי תיקי הלקוחות את כל נושא
+          התשתיות.
+        </p>
+        <p class="textb">
+          החל מניהול שרתים ועד בנייה פיסית של קמפיינים כולל ניהול של צוות עובדים
+          פנימי וחיצוני
+          <br />
+        </p>
+      </div>
+      <hr />
+      <h2 align="center">שפות:</h2>
+      <hr />
+      <div class="block3 lang">
+        <h3><span>שפה:</span>אנגלית</h3>
+        <ul>
+          <li>
+            <h5>קריאה:<span>5</span></h5>
+          </li>
+          <li>
+            <h5>כתיבה:<span>5</span></h5>
+          </li>
+          <li>
+            <h5>דיבור:<span>5</span></h5>
+          </li>
+        </ul>
+      </div>
+
+      <div class="block3 lang">
+        <h3><span>שפה:</span>צרפתית</h3>
+        <ul>
+          <li>
+            <h5>קריאה:<span>4</span></h5>
+          </li>
+          <li>
+            <h5>כתיבה:<span>3</span></h5>
+          </li>
+          <li>
+            <h5>דיבור:<span>5</span></h5>
+          </li>
+        </ul>
+      </div>
+
+      <div class="block3 lang">
+        <h3><span>שפה:</span>ספרדית</h3>
+        <ul>
+          <li>
+            <h5>קריאה:<span>2</span></h5>
+          </li>
+          <li>
+            <h5>כתיבה:<span>2</span></h5>
+          </li>
+          <li>
+            <h5>דיבור:<span>3</span></h5>
+          </li>
+        </ul>
+      </div>
+      <div class="spacer"></div>
     </div>
   </body>
 </html>
